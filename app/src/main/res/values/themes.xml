@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.TaseIt" parent="Theme.Material3.Light.NoActionBar">
+
+         <item name="colorPrimary">@color/primary</item>
+         <item name="colorAccent">@color/white</item>
+         <item name="colorPrimaryVariant">@color/primary</item>
+        <item name="bottomNavigationStyle">@style/MyBottomNavView</item>
+    </style>
+
+
+    <style name="MyBottomNavView" parent="Widget.Material3.BottomNavigationView">
+        <!-- Set the background color -->
+        <item name="android:background">@color/white</item>
+        <item name="itemIconTint">@color/primary</item>
+        <!-- Set the color of text -->
+        <item name="itemTextColor">@color/primary</item>
+    </style>
+
+
+    <style name="Theme.TaseIt" parent="Base.Theme.TaseIt" />
+</resources>

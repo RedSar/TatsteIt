@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TaseIt</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="home_fragment">home fragment</string>
+    <string name="favorite_fragment">favorite fragment</string>
+    <string name="categories_fragment">categories fragment</string>
+</resources>
